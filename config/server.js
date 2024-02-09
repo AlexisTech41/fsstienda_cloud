@@ -1,6 +1,7 @@
 module.exports = ({ env }) => ({
-  host: env('HOST', 'fsstienda.1.us-1.fl0.io'),
+  host: env('HOST', '0.0.0.0'),
   port: env.int('PORT', 1337),
+  url: 'colorful-trust-d20e7a69b5.strapiapp.com',
   app: {
     keys: env.array('APP_KEYS'),
   },
